@@ -49,3 +49,8 @@ ID|Title|Price|Stock left|Webshop country
 -|-|-|-|-
 DELFR001|Delorean de Retour vers le Futur - Étape 1|10.99|38|fr
 DELUK003G|La Base da Esposizione DeLorean|59.99|96|it
+
+## Live data
+
+The output of the scripts writes to an S3 bucket and a [Google Spreadsheet](https://docs.google.com/spreadsheets/d/1H1_28uGOyhE-5J-Spgd0I8oApZUayIxRRmPYOhyBE9M/edit?usp=sharing)
+is importing these files, so it's easy to search the stock of the webshops.
